@@ -1,5 +1,3 @@
 print('Hello git')
 print('12')
 print('12')
-print('Buy git')
-print('Buy git')
