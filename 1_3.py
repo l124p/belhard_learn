@@ -1,4 +1,5 @@
 # Привественное сообщение.
+
 name = input("Name")
 age = input("Age")
 city = input("City")

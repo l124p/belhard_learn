@@ -1,4 +1,5 @@
 # Подсчёт положительных и отрицательных чисел.
+
 a, b, c = map(int, input('Введите три числа через пробел: ').split())
 sum_positive_number = 0
 sum_negative_number = 0
