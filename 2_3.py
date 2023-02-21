@@ -10,9 +10,7 @@ for i in range(0, len(number), 5):
 # Вариант 2
 i = 0
 for i in range(len(number)):
-    if not i:
-        print(number[i], end=' ')
-    elif i % 5:
+    if (i + 1) % 5:
         print(number[i], end=' ')
     else:
         print(number[i])
