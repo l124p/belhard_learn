@@ -1,7 +1,7 @@
 # Фильтруем список оставляя только строки
 
 def filter_lst(new_lst):
-    new_list = list(filter(lambda x: x if type(x) == str else False, new_lst))
+    new_list = list(filter(lambda x: isinstance(x, str), new_lst))
     return new_list
 
 
