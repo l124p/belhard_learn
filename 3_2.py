@@ -9,10 +9,13 @@ def code_morze(message):
              }
     message_code = ''
     for i in message:
-        if i != ' ':
-            message_code += morze.get(i.upper())
-        else:
+        if i == ' ':
             message_code += ' '
+        else:
+            try:
+                message_code += morze.get(i.upper())
+            except:
+                return 'Ошибка расшифровки'
     return message_code
 
 
