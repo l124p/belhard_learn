@@ -1,8 +1,7 @@
 # Сдвигаем список на n элементов
 def fun(lst_number, n):
-    while n:
+    for i in range(n):
         lst_number.insert(0, lst.pop())
-        n -= 1
     return lst
 
 
