@@ -53,24 +53,32 @@
 # print(Category.get(1))
 
 
-class RegisterForm:
+# class RegisterForm:
+#
+#     def __init__(self, username, password):
+#         self.username = username
+#         self.password = password
+#
+#     def is_valid(self):
+#         if not isinstance(self.username, str) or not isinstance(self.password, str):
+#             return False
+#         elif len(self.username) < 2 or len(self.password) < 8:
+#             return False
+#         elif self.username in self.password:
+#             return False
+#         elif self.password.isalpha():
+#             return False
+#         else:
+#             return True
+#
+#
+# my_ob = RegisterForm('name','password')
+# print(my_ob.is_valid())
 
-    def __init__(self, username, password):
-        self.username = username
-        self.password = password
+class Numbers:
 
-    def is_valid(self):
-        if not isinstance(self.username, str) or not isinstance(self.password, str):
-            return False
-        elif len(self.username) < 2 or len(self.password) < 8:
-            return False
-        elif self.username in self.password:
-            return False
-        elif self.password.isalpha():
-            return False
-        else:
-            return True
-
-
-my_ob = RegisterForm('name','password')
-print(my_ob.is_valid())
+    def __init__(self,lst):
+        self.lst = lst
+    def average(self):
+        return sum(self.lst)/len(self.lst)
+    def max_count(self):
