@@ -15,7 +15,7 @@ def code_morze(message):
             try:
                 message_code += morze.get(i.upper())
             except:
-                return 'Ошибка расшифровки'
+                return 'Ошибка шифрования, неизвестный  символ: ' + str(i)
     return message_code
 
 
