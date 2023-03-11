@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+alembic.ini
+alembic
 __pycache__/
 *.py[cod]
 *$py.class
